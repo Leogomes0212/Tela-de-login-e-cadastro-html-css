@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Kanit:wght@300&family=Roboto+Condensed&display=swap');
+</style>
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(40, 39, 41);
+
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(251, 247, 255);
+    font-family: 'Kanit', sans-serif;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(187, 116, 183);
+}
+
+.conteudo img {
+    width: 150px;
+    height: auto;
+}
+
+.email input {
+    background-color: rgb(87, 85, 85);
+    width: 250px;
+    height: 40px;
+    border-radius: 16px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    color: azure;
+}
+
+.senha input {
+    background-color: rgb(87, 85, 85);
+    width: 250px;
+    height: 40px;
+    border-radius: 16px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    color: azure;
+}
+
+.botao input {
+    background-color: rgb(57, 231, 57);
+    width: 250px;
+    height: 40px;
+    border-radius: 16px;
+    color: azure;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+    border: none;
+
+    
+}
+
+::placeholder {
+    color: rgb(172, 172, 172)
+    
+}
